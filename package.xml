@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<package>
+  <name>ntrip_client</name>
+  <version>0.0.1</version>
+  <description>The ntrip_client package</description>
+
+  <maintainer email="jewos0127@gmail.com">Jaewoo Yoon</maintainer>
+
+  <license>MIT</license>
+
+  <author email="jewos0127@gmail.com">Jaewoo Yoon</author>
+  <author>Jaewoo Yoon</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>rtcm_msgs</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- This is a pure Python package, so mark it architecture independent -->
+  </export>
+</package>
